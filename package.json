@@ -1,0 +1,23 @@
+{
+  "name": "PagBootstrap5Sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html --output css/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santyagor/PaginaDemosSass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santyagor/PaginaDemosSass/issues"
+  },
+  "homepage": "https://github.com/santyagor/PaginaDemosSass#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  }
+}
